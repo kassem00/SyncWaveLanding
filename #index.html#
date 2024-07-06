@@ -31,7 +31,7 @@
                 </div>
             </div>
         </div>
-    </div>
+            </div>
     <div class="hero-image">
         <img id="main_im" src="images/bb.webp" alt="Information about SyncWave">
     </div>
@@ -90,33 +90,6 @@
 
     </div>
 
-
-    <div class="sign_form">
-        <div class="content">
-            <h1>Join Us Securely with Your Trusted Account</h1>
-            <p>
-
-                <button>
-                    <a href="https://ywfewndneydophylbdvi.supabase.co/auth/v1/authorize?provider=github">
-                        <img src="images/github-mark.svg" alt="GitHub Logo" class="icon_logo">
-                    </a>
-                </button>
-                <button>
-                    <a href="https://ywfewndneydophylbdvi.supabase.co/auth/v1/authorize?provider=google">
-                        <img src="images/icons8-google-500.svg" alt="Google Logo" class="icon_logo">
-                    </a>
-                </button>
-	<!-- NOT YET 
-                <button>
-                    <a href="https://ywfewndneydophylbdvi.supabase.co/auth/v1/authorize?provider=mirosoft">
-                        <img src="images/icons8-microsoft-500.svg" alt="Google Logo" class="icon_logo">
-                    </a>
-                </button>
-	-->            
-	</p>
-
-        </div>
-    </div>
 </body>
 
 

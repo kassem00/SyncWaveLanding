@@ -16,10 +16,12 @@ body {
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
 }
-.navbar h2{
+
+.navbar h2 {
     position: absolute;
     text-align: center;
 }
+
 .navbar a,
 .dropbtn {
     float: right;
@@ -41,7 +43,7 @@ body {
     outline: none;
     color: white;
     background-color: inherit;
-    /* make dropdown button match navbar */
+
 }
 
 .dropdown-content {
@@ -72,12 +74,10 @@ body {
 
 .hero-image {
     width: 100%;
-    /* Adjust based on your image and design preference */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    /* Needed to position text inside the image */
     text-align: center;
     color: white;
 }
@@ -90,12 +90,10 @@ body {
 body {
     font-family: Arial, sans-serif;
     padding-top: 50px;
-    /* Add padding to avoid content being covered by fixed navbar */
+
 }
 
-/*******************************************************/
-
-.red-box form a {
+** .red-box form a {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -206,11 +204,8 @@ body {
 
 .hero-image {
     width: 100vw;
-    /* Full viewport width */
     height: 60vh;
-    /* Full viewport height */
     overflow: hidden;
-    /* Ensures no horizontal scrollbars due to image overflow */
     background-image: url("bb.jpg");
     object-fit: fill;
 }
@@ -218,15 +213,11 @@ body {
 #main_im {
     position: absolute;
     left: 50%;
-    /* Position image in the center */
     transform: translateX(-50%);
-    /* Adjust to center image */
     min-width: 100%;
-    /* Ensure the image covers the entire container */
     min-height: 100%;
-    /* Ensure the image covers the entire container */
     object-fit: cover;
-    /* Scale the image while maintaining aspect ratio */
+
 }
 
 
@@ -238,7 +229,6 @@ body {
     width: 80%;
     margin: 20px auto;
     border-radius: 8px;
-    /* From https://css.glass */
     background: rgba(18, 18, 18, 0.44);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -317,4 +307,60 @@ li {
 
 #sync {
     color: red;
+}
+
+
+
+
+
+
+.sign_form {
+    position: relative;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.11);
+    padding: 40px;
+    border-radius: 50px 0px 50px 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(88, 88, 88, 0.88);
+    margin-top: 50px;
+
+}
+
+.sign_form h1 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.sign_form p {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    filter: invert(44%) sepia(70%) saturate(0%) hue-rotate(86deg) brightness(500%) contrast(119%);
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.08);
+    transition: all 0.3s ease;
+}
+
+button :hover {
+    cursor: hand;
+}
+
+.icon_logo {
+    height: 50px;
+    width: auto;
+}
+
+.sign_form span {
+    position: absolute;
+    display: block;
 }
